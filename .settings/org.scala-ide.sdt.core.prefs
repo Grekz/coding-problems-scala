@@ -22,6 +22,7 @@ deprecation=true
 eclipse.preferences.version=1
 explaintypes=true
 feature=true
+formatter.useProjectSpecificSettings=true
 g=vars
 no-specialization=false
 nowarn=false
