@@ -6,7 +6,7 @@ object E021_MergeTwoSortedLists {
     def mergeTwoLists(l1: ListNode, l2: ListNode): ListNode = {
         if( l1 == null ){ return l2 }
         if( l2 == null ){ return l1 }
-        var temp = ListNode(-1)
+        var temp = new ListNode()
         var walk = temp
         var curL1 = l1
         var curL2 = l2
