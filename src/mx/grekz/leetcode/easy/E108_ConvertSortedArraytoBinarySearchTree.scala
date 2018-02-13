@@ -9,7 +9,7 @@ object E108_ConvertSortedArraytoBinarySearchTree {
         def helper(l:Int, h:Int) : TreeNode = {
             if ( l > h ) { return null; }
             var m = l + ( h - l ) / 2;
-            var res = TreeNode(nums(m));
+            var res = new TreeNode(nums(m));
             res.left = helper( l, m-1);
             res.right = helper( m+1, h);
             return res;            
