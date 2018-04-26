@@ -1,4 +1,4 @@
-package mx.grekz.leetcode.easy
+package mx.grekz.leetcode.medium
 
 import mx.grekz.leetcode.helper.TreeNode
 /**
