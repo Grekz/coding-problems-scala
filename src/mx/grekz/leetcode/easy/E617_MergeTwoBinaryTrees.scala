@@ -9,7 +9,7 @@ object E617_MergeTwoBinaryTrees {
         if ( t1 == null ) t2
         else if ( t2 == null ) t1
         else {
-            var c = TreeNode( t1.value + t2.value )
+            var c = new TreeNode( t1.value + t2.value )
             c.left = mergeTrees(t1.left, t2.left)
             c.right = mergeTrees(t1.right, t2.right)
             c
