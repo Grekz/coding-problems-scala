@@ -3,7 +3,7 @@ package mx.grekz.leetcode.easy
 /**
  * @author grekz
  */
-object E1013_PairsofSongsWithTotalDurationsDivisibleby60 {
+object E1010_PairsofSongsWithTotalDurationsDivisibleby60 {
     def numPairsDivisibleBy60(time: Array[Int]): Int = {
         var res = 0 
         var cnt = Array.fill(60)(0)
